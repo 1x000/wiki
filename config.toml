@@ -1,0 +1,45 @@
+baseURL = "https://wiki.xpdbk.com"
+
+languageCode = "en-us"
+DefaultContentLanguage = "en"
+title = "LEl_FENG Wiki 百科"
+theme = "ace-documentation"
+pygmentsCodeFences = true
+pygmentsStyle = "monokailight"
+
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir= false
+enableMissingTranslationPlaceholders = false
+
+# Enable Google Analytics by entering your tracking id
+googleAnalytics = ""
+
+[params]
+ordersectionsby = "weight" # ordersectionsby = "title"
+disableSearch = true # default is false
+disableReadmoreNav = false # set true to hide prev/next navigation, default is false
+highlightClientSide = false # set true to use highlight.pack.js instead of the default hugo chroma highlighter
+menushortcutsnewtab = true # set true to open shortcuts links to a new tab/window
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+[[menu.shortcuts]]
+name = "官方Fdp"
+url = "https://github.com/SkidderMC/FDPClient/releases"
+weight = 1
+
+[[menu.shortcuts]]
+name = "生存服"
+url = "https://mc.xpdbk.com"
+weight = 2
+
+[[menu.shortcuts]]
+name = "<button class='btn btn-success mt-n1'>我的博客</button>"
+url = "https://blog.xpdbk.com"
+weight = 3

@@ -1,0 +1,1 @@
+hugo-encrypt -sitePath .\public
