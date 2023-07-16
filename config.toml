@@ -43,3 +43,8 @@ weight = 2
 name = "<button class='btn btn-success mt-n1'>我的博客</button>"
 url = "https://blog.xpdbk.com"
 weight = 3
+
+[[menu.shortcuts]]
+name = "<button class='btn btn-success mt-n1'>贡献内容</button>"
+url = "https://github.com/1x000/wiki"
+weight = 4
